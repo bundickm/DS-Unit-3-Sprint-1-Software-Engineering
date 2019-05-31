@@ -264,9 +264,14 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+  **For me, one of the biggest things I look for in a code review is extensive commenting. If you are commenting well, then even poorly written code becomes a lot more readable and digestible. I expect standard comments at starts of modules, classes, and functions but also look for comments explaining code blocks within a function. For function comments I expect a description, what inputs are required (including datatype), and what it outputs (including datatype). For code block comments, I expect a brief synopsis of what that chunk is doing (what is it doing each loop, what is it calculating, etc.). Over commenting usually isn't the problem, but I also look for unnecessary comments such as `x=2 # assigning x to be 2`.**
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+  **Containers provide environments in which Acme can test its products without fear of breaking everything. The container acts as a quarantine for each product/test but also has the added benefit of reproducibility. A container's settings can be saved and be instantiated with a new container, meaning that Acme can run tests of their products and provide the container settings so that others can independently verify a product works in the conditions they claim. Another benefit of containers is that Acme can spin up or discard containers as needed meaning there is no useless overhead of old or unused containers. Finally, Acme can brand and sell containers as there own, because cartoon capitalism!**
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
